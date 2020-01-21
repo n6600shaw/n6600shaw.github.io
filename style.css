@@ -33,7 +33,8 @@
   }
   
   /* Hide scrollbar for IE and Edge */
-  body {
+  html, body {
+    height:100%;
     -ms-overflow-style: none;
   }
 
@@ -123,7 +124,7 @@ body{
 .card{
 border:none !important;
 border-radius: 0% !important;
-margin-bottom:15px !important;
+margin-bottom:0.2px !important;
 padding:20px;
   direction: ltr;
 }
