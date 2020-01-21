@@ -16,10 +16,10 @@
 </head>
 
 <body>
-    <nav class="navbar justify-content-center bg-dark fixed-top">
+    <nav class="navbar justify-content-center  fixed-top">
 
         <span class="nav-item">
-            Xiaolong Project Portfolio.
+            Xiaolong Liu Project Portfolio.
         </span>
         <span class="nav-item">
             <a class="nav-link" href="https://github.com/n6600shaw"><i class="fab fa-github fa-lg"></i></a>
@@ -29,12 +29,12 @@
     <div class="container-fluid main-content">
 
         <div class="row">
-            <div class="col-md-1"></div>
+            <div class="col-md-0"></div>
             <div class="col-md-3">
-                <div class="card mb-3">
+                <div class="card mb-3 card-me">
                     <img src="me.PNG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Hello, I'm Xiaolong (Shaw) Liu</h5>
+                        <h4 class="card-title">Xiaolong (Shaw) Liu</h4>
                         <p class="card-text text-muted">Web and application development - Python, Java, JavaScript, Django, Node.js,
                             Machine learning, Data science </p>
                         <p class="card-text text-muted"><i class="fab fa-github fa-lg"></i> <a
@@ -46,49 +46,69 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 project-list">
-                <div class="card mb-3" style="">
-                    <div class="row no-gutters">
+            <div class="col-md-9 project-list">
+                    <div class="card mb-3" style="">
+                            <div class="row no-gutters">
+        
+                                <div class="col-md-5">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><img class="logo" src="logo.png"> quliD</h4>
+                                        <h5><span class="">React, Node.js, Python-Shell, MongoDB(mLab)</span></h5>
+                                        <p class="card-text text-muted ">Built a web application  to upload and store spectroscopy test data and automatically identify and visualize data peaks.</p>
+                                        <p class="card-text text-muted ">This project was developed for qualiTEAS Inc. during laster semester of Master of Computer Science in December 2019.</p>
+        
+                                        <p>
+                                            <a class="" data-toggle="collapse" href="#detail-qulid" role="button"
+                                                aria-expanded="false" aria-controls="collapseExample">
+                                                Detail
+                                            </a>
+        
+                                        </p>
+                                        <div class="collapse" id="detail-qulid">
+                                                <hX>Features</hX>
+                                                <ul>
+                                                    <li>Directly upload raw spectroscopy test file and stores to cloud database.</li>
+                                                    <li>Automatically extract and visualize peaks on data plot, with parameters for peak adjustment.</li>
+                                                </ul>
+                                            <hX>Front-End</hX>
+                                            <ul>
+                                                <li>React</li>
+                                                <li>React-bootstrap</li>
+                                                <li>React-chartjs2</li>
+                                                <li>Semantic-ui-eact</li>
+                                                <li>React-router-dom</li>
+                                                <li>React-bootstrap-table</li>
+                                            </ul>
+                                            <hX>Back-End</hX>
+                                            <ul>
+                                                <li>Node.js</li>
+                                                <li>Axios</li>
+                                                <li>Express</li>
+                                                <li>Cors</li>
+                                                <li>Mongoose</li>
+                                                <li>Python-Shell</li>
+                                                <li>Scipy</li>
+                                            </ul>
 
-                        <div class="col-md-5">
-                            <div class="card-body">
-                                <h5 class="card-title"><img src="icon1.png"> Flow3dSim</h5>
-                                <p><span class=""> Java, Servlet, Three.js, WebSocket, Maven</span></p>
-                                <p class="card-text text-muted">A flow simulator (Darcy flow) webapp, with a 3D model
-                                    editor.</p>
-
-                                <p>
-                                    <a class="" data-toggle="collapse" href="#novelty-flow3d-sim" role="button"
-                                        aria-expanded="false" aria-controls="collapseExample">
-                                        Novelty
-                                    </a>
-
-                                </p>
-                                <div class="collapse" id="novelty-flow3d-sim">
-                                    <p class="card-text  text-muted"> A handy Darcy flow simulation portal with the
-                                        feature of setting heterogeneous  regions. Simulation result at each time step is
-                                        streamed from server side, avoiding high computing load on browser side.</p>
+                                        </div>
+    
+                                        <p>App link: in the process of configuring AWS, demo is available upon request.
+                                        </p>
+                                    </div>
                                 </div>
-
-                                <p class="project-type card-text"><small class="text-muted"> An individual project
-                                        developed for education and research experiment purpose while working at UPRC.</small>
-                                </p>
-                                <p>App link: <a href="http://www.flow3dsim.com" class="stretched-link">flow3dsim.com</a>
-                                </p>
+                                <div class="col-md-7 img-holder">
+                                    <img src="qualid.gif" class="card-img img-fluid" alt="...">
+        
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-7 img-holder">
-                            <img src="flow3dsim2.gif" class="card-img img-fluid" alt="...">
 
-                        </div>
-                    </div>
-                </div>
                 <div class="card mb-3" style="">
                     <div class="row no-gutters">
 
                         <div class="col-md-5">
                             <div class="card-body">
-                                <h5 class="card-title"><img src="doctag.png"> Doc-Tag</h5>
+                                <h4 class="card-title"><img src="doctag.png"> Doc-Tag</h4>
                                 <p><span class=""> Python,
                                         JavaScript, Django, scikit-learn, scikit-image, PostgreSQL</span></p>
                                 <p class="card-text text-muted">A fullstack webapp for users to put hashtags on
@@ -122,13 +142,80 @@
                         </div>
                     </div>
                 </div>
+                <div class="card mb-3" style="">
+                        <div class="row no-gutters">
+    
+                            <div class="col-md-5">
+                                <div class="card-body">
+                                    <h4 class="card-title"><img src="icon1.png"> Flow3dSim</h4>
+                                    <h5><span class=""> Java, Servlet, Three.js, WebSocket, Maven</span></h5>
+                                    <p class="card-text text-muted ">A flow simulator (Darcy flow) webapp, with a 3D model
+                                        editor.</p>
+    
+                                    <p>
+                                        <a class="" data-toggle="collapse" href="#novelty-flow3d-sim" role="button"
+                                            aria-expanded="false" aria-controls="collapseExample">
+                                            Novelty
+                                        </a>
+    
+                                    </p>
+                                    <div class="collapse" id="novelty-flow3d-sim">
+                                        <p class="card-text  text-muted"> A handy Darcy flow simulation portal with the
+                                            feature of setting heterogeneous  regions. Simulation result at each time step is
+                                            streamed from server side, avoiding high computing load on browser side.</p>
+                                    </div>
+    
+                                    <p class="project-type card-text"><small class="text-muted"> An individual project
+                                            developed for education and research experiment purpose while working at UPRC.</small>
+                                    </p>
+                                    <p>App link: <a href="http://www.flow3dsim.com" class="stretched-link">flow3dsim.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 img-holder">
+                                <img src="flow3dsim2.gif" class="card-img img-fluid" alt="...">
+    
+                            </div>
+                        </div>
+                    </div>
+                <div class="card mb-3" style="">
+                        <div class="row no-gutters">
+    
+                            <div class="col-md-5">
+                                <div class="card-body">
+                                    <h4 class="card-title">Metaheuristic Deep Learning Projects</h4>
+                                    <p><span class="">Java, Servlet, Plotly.js, AWS EB & EC2</span></p>
+                                    <p class="card-text text-muted">.</p>
+                                        <div class="subcard">
+                                                <p><span class="">Web applications to demonstrate solving regression and optimization problems using GA/GP based algorithms.</span></p>
+                                                <p class="project-type card-text"><small class="text-muted"></small></p>
+                                                <p> Link: <a href="http://15.222.164.128/">15.222.164.128</a></p>
+                                            </div>
+                                    <div class="subcard">
+                                        <p><span class="">Optimize 3D space drilling path planning</span></p>
+                                        <p class="project-type card-text"><small class="text-muted"> A project for
+                                                Evolutionary Computing course, in collaboration with UPRC.</small></p>
+                                        <p>Code link: <a
+                                                href="https://github.com/n6600shaw/Genetic-algorithm-3D-path-optimization"
+                                                class="stretched-link">github.com/n6600shaw/Genetic-algorithm-3D-path-optimization</a>
+                                        </p>
+                                    </div>
+  
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <img src="dp4.png" class="card-img two-img" alt="...">
+                                <img src="dp3.png" class="card-img two-img" alt="...">
+                            </div>
+                        </div>
+                </div>
 
                 <div class="card mb-3" style="">
                     <div class="row no-gutters">
 
                         <div class="col-md-5">
                             <div class="card-body">
-                                <h5 class="card-title"> LocMap</h5>
+                                <h4 class="card-title"> LocMap</h4>
                                 <p><span class=""> Node.js, DB2, Docker, APIConnect, Openlayer, RESTful</span></p>
                                 <p class="card-text text-muted">A webapp to search and geo-mapping healthcare provider
                                     registered locations in NL.</p>
@@ -152,7 +239,7 @@
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <img src="locmap.gif" class="card-img" alt="...">
+                            <img src="loc.png" class="card-img" alt="...">
 
                         </div>
                     </div>
@@ -164,7 +251,7 @@
 
                         <div class="col-md-5">
                             <div class="card-body">
-                                <h5 class="card-title"><img style="width:32px;" src="mun.jpg"> GradRec</h5>
+                                <h4 class="card-title"><img style="width:32px;" src="mun.jpg"> GradRec</h4>
                                 <p><span class=""> Node.js, MongoDB, Bootstrap, Agile</span></p>
                                 <p class="card-text text-muted">A webapp for research project recruitment, with smart
                                     job matching feature.</p>
@@ -194,82 +281,64 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="card mb-3" style="">
-                    <div class="row no-gutters">
+                        <div class="row no-gutters">
+    
+                            <div class="col-md-5">
+                                <div class="card-body">
+                                    <h4 class="card-title"><img class="logo" src="Robot (1).png"> SurveyBot</h4>
+                                    <h5><span class="">Python, Flask, Scikit-learn, Semantic-ui</span></h5>
+                                    <p class="card-text text-muted ">A chatbot webapp to classify movie review content, with a search engine using IMDb APIs.</p>
+                                    <p class="card-text text-muted ">A personal project to leverage knowledge in integrating a trained machine learing model into a web application, and implementation a chatbot program.</p>
+    
+                                    <p>
+                                        <a class="" data-toggle="collapse" href="#detail-surveybot" role="button"
+                                            aria-expanded="false" aria-controls="collapseExample">
+                                            Detail
+                                        </a>
+    
+                                    </p>
+                                    <div class="collapse" id="detail-surveybot">
+                                            <hX>Features</hX>
+                                            <ul>
+                                                <li>Movie search engine using IMDb APIs.</li>
+                                                <li>A chatbot that classifies user's review content for survey.</li>
+                                            </ul>
+                                        <hX>Front-End</hX>
+                                        <ul>
+                                            <li>Flask template</li>
+                                            <li>Semantic-ui</li>
+                                            <li>Bootstrap</li>
+                                            <li>JavaScript</li>
+                                        </ul>
+                                        <hX>Back-End</hX>
+                                        <ul>
+                                            <li>Flask</li>
+                                            <li>Python</li>
+                                            <li>Scikit-learn</li>
+                                        </ul>
 
-                        <div class="col-md-5">
-                            <div class="card-body">
-                                <h5 class="card-title">Genetic Algrotihm Design</h5>
-                                <p><span class=""> Java, Matlab</span></p>
-                                <p class="card-text text-muted">Designed and implemented various genetic algorithm for
-                                    optimization problems.</p>
+                                    </div>
 
-                                <div class="subcard">
-                                    <p><span class="">Optimize 3D space drilling path planning</span></p>
-                                    <p class="project-type card-text"><small class="text-muted"> A project for
-                                            Evolutionary Computing course, in collaboration with UPRC.</small></p>
-                                    <p>Code link: <a
-                                            href="https://github.com/n6600shaw/Genetic-algorithm-3D-path-optimization"
-                                            class="stretched-link">github.com/n6600shaw/Genetic-algorithm-3D-path-optimization</a>
+                                    <p>App link: <a href="https://asurveybot.herokuapp.com"
+                                        class="stretched-link">asurveybot.herokuapp.com</a>
                                     </p>
                                 </div>
-                                <div class="subcard">
-                                    <p><span class="">Solving classic Traveling Sales Man problem</span></p>
-                                    <p class="project-type card-text"><small class="text-muted"> A project for
-                                            Evolutionary Computing course.</small></p>
-                                    <p> Code: <a href="TSP.java" download>TSP.java</a></p>
-                                </div>
+                            </div>
+                            <div class="col-md-7 img-holder">
+                                <img src="bot.png" class="card-img img-fluid" alt="...">
+    
                             </div>
                         </div>
-                        <div class="col-md-7">
-                            <img src="drill.png" class="card-img two-img" alt="...">
-                            <img src="Westernsahara.PNG" class="card-img two-img" alt="...">
-                        </div>
                     </div>
-                </div>
-                <div class="card mb-3" style="">
-                    <div class="row no-gutters">
-
-                        <div class="col-md-5">
-                            <div class="card-body">
-                                <h5 class="card-title">3D stream line</h5>
-                                <p><span class=""> Matlab, numerical computing</span></p>
-                                <p class="card-text text-muted">A computing code to generate 3D stream lines towards
-                                    radial outlet boundary geometry.</p>
-
-                                <p>
-                                    <a class="" data-toggle="collapse" href="#novelty-stream" role="button"
-                                        aria-expanded="false" aria-controls="collapseExample">
-                                        Novelty
-                                    </a>
-
-                                </p>
-                                <div class="collapse" id="novelty-stream">
-                                    <p class="card-text text-muted"> A novel stream line method for radial outlet
-                                        geometry.</p>
-                                </div>
-
-                                <p class="project-type card-text"><small class="text-muted"> A research project at
-                                        UPRC.</small></p>
-                                <p>Code link: <a href="https://github.com/n6600shaw/Stream-line-3D-radial"
-                                        class="stretched-link">github.com/n6600shaw/Stream-line-3D-radial</a></p>
-                            </div>
-                        </div>
-                        <div class="col-md-7">
-
-                            <img src="Screen Shot 2020-01-07 at 3.48.07 PM.png" class="card-img two-img" alt="...">
-                            <img src="Screen Shot 2020-01-07 at 3.49.04 PM.png" class="card-img two-img" alt="...">
-
-                        </div>
-                    </div>
-                </div>
+        
+         
                 <div class="card mb-3" style="">
                     <div class="row no-gutters">
 
                         <div class="col-md-12">
                             <div class="card-body">
-                                <h5 class="card-title">Fun Hobby Projects</h5>
+                                <h4 class="card-title">Fun Hobby Projects</h4>
                                 <p><span class=""> JavaScript, C++</span></p>
 
                                 <div class="jsfun subsection" id="section-jsfun">
@@ -299,7 +368,7 @@
 
 
             </div>
-            <div class="col-md-1"></div>
+            <div class="col-md-0"></div>
         </div>
 
 
@@ -308,8 +377,8 @@
 
 
     </div>
-    <footer class="bg-dark">
-        Copyright Xiaolong Liu.
+    <footer class="bg-light">
+        &copy Xiaolong Liu.
     </footer>
 
 
